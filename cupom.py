@@ -1,3 +1,25 @@
+nome_loja = "Arcos Dourados Com. de Alimentos LTDA"
+logradouro = "Av. Projetada Leste"
+numero = 500
+complemento = "EUC F32/33/34"
+bairro = "Br. Sta Genebra"
+municipio = "Campinas"
+estado = "SP"
+cep = "13080-395"
+telefone = "(19) 3756-7408"
+observacao = "Loja 1317 (PDP)"
+cnpj = "42.591.651/0797-34"
+inscricao_estadual = "244.898.500.113"
+
+
 def imprime_dados_loja():
     # Implemente aqui
-    return "" 
+    output = f"{nome_loja}\n"
+    output += f"{logradouro}, {numero} {complemento}\n"
+    output += f"{bairro} - {municipio} - {estado}\n"
+    output += f"CEP:{cep} Tel {telefone}\n"
+    output += f"{observacao}\n"
+    output += f"CNPJ: {cnpj}\n"
+    output += f"IE: {inscricao_estadual}\n"
+
+    return output

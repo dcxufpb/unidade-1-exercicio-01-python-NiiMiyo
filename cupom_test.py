@@ -1,4 +1,5 @@
-import cupom;
+import cupom
+
 
 def test_imprime_dados_loja():
     assert cupom.imprime_dados_loja() == '''Arcos Dourados Com. de Alimentos LTDA
